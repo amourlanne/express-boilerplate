@@ -1,0 +1,26 @@
+{
+  "name": "express-simple-boilerplate",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "Alexis Mourlanne",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec node src/server.js",
+    "start": "node src/server.js",
+    "build": "webpack --mode production",
+    "serve": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
