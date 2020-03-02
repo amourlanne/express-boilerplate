@@ -1,7 +1,7 @@
 {
   "name": "express-simple-boilerplate",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "src/server.js",
   "author": "Alexis Mourlanne",
   "license": "MIT",
   "scripts": {
@@ -22,5 +22,9 @@
     "presets": [
       "@babel/preset-env"
     ]
+  },
+  "engines": {
+    "node": "11.10.0",
+    "npm": "6.7.0"
   }
 }
